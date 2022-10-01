@@ -1,0 +1,42 @@
+**Nume: Alexandru Mihai**
+**Grupa: 313CA**
+
+## Tema 2 - The Library of HashBabel
+
+### Description:
+
+* This project was meant to develop one's abilities of handling and
+manipulating hashtables by requiring the implementation of a virtual
+library, containing a book and a user database.
+
+* Both the library and the books themselves were stored generically
+using the common hashtable data structure. However additional functionalities
+such as resize and updating features that was meant to minimise
+the memory resources used.
+
+* The informating from the book can be erased or update according to one's
+preferences by adding or removing a certain definition from the book hashtable.
+
+* The users were stored, as well, in a hashtable and the program is able
+to offer some functionalities regarding the interaction between users
+and library. A user can borrow a book from the library for a certain number
+of days, can give a rating to the book, as well as be awarded points
+for returning it in time. However, returning it late or losing it may
+therefore result in a low score for the user or even getting banned
+from this library.
+
+* At the end of the day the top books and users will be displayed, task
+that was successfully achieved by recursively printing the top book/user
+and then removing it from the hashtable.
+
+
+### Personal comments:
+
+* Probably, the most difficult part of this project was the resizing function
+of the hashtable, considering that unlike a regular rebuild some information was
+still memorized and could not have been removed from the memory.
+
+* Apart from that however, the project was overall very interesting and quite
+intuitive for a Computer Science student and I could have better understand
+some hashtables features that I was quite hesitant to use and implement (such
+as of course the resizing feature)
